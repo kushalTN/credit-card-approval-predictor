@@ -57,17 +57,21 @@ credit-card-approval/
    ```bash
    git clone https://github.com/your-username/credit-card-approval.git
    cd credit-card-approval
+   
 Create and activate a virtual environment
 python -m venv venv
+
 venv\Scripts\activate  # Windows
+
 source venv/bin/activate  # macOS/Linux
-Install dependencies
 
 pip install streamlit scikit-learn pandas numpy
 
 Train the model (optional)
 python train_model.py
+
 Run the Streamlit app
 streamlit run streamlit_app.py
+
 📈 Real-World Use Case
 This project mimics a real banking scenario where machine learning automates credit approval. It demonstrates how to turn a model into a usable business tool.
